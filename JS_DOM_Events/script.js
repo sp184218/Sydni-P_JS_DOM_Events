@@ -8,8 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
     onLoadEl.innerHTML = "<h1> I loaded cause the DOM was fully loaded</h1>"
    
    })
-
-   //Get the element that will show our key code
+//Get the element that will show our key code
 let directionEl = document.getElementById("direction");
 
 // Can be changed with Key press or key up depending on what you might need
@@ -19,5 +18,4 @@ document.addEventListener("keydown", function(e) {
  directionEl.innerText = `The Key you pressed is ${e.code}`;
 
 });
-
    
