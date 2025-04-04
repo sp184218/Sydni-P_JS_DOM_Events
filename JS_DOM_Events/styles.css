@@ -1,0 +1,74 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the to-do container */
+  .todo-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Style for the input field */
+  #taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style for the Add button */
+  #addTask {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #addTask:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the task list */
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #taskList li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the task item when completed */
+  .completed {
+    text-decoration: line-through;
+    background-color: #d3ffd3; /* Light green background for completed task */
+  }
+  /* Completed task styles */
+.completed {
+    text-decoration: line-through; /* Strikes through the text */
+    background-color: #d4edda; /* Light green background */
+    color: #6c757d; /* Slightly darker text color for completed tasks */
+}

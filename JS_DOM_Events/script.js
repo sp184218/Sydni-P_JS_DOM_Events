@@ -42,3 +42,16 @@ function changeBtnStyle() {
     const btn = document.querySelector(".cool-btn");
     btn.classList.toggle("glow"); // Toggles the glow effect
 }
+document.getElementById("darkModeBtn").addEventListener("click", function() {
+    let body = document.body;
+
+    if (body.style.backgroundColor === "rgb(18, 18, 18)") {
+        // Switch to light mode
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    } else {
+        // Switch to dark mode
+        body.style.backgroundColor = "#121212";
+        body.style.color = "white";
+    }
+});
