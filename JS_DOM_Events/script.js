@@ -1,3 +1,4 @@
+document.getElementById("title").innerText = "Text Changed via Console!";
 // When the DOM is fully loaded, this will be fired
 document.addEventListener("DOMContentLoaded", function() {
     // Get the element with an id of onload
